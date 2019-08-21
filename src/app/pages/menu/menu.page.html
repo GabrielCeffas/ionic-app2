@@ -1,0 +1,30 @@
+<ion-menu contentId="content">
+  <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+
+      <ion-menu-toggle>
+        <ion-item routerDirection="" routerLink="/menu/tracker">
+          <ion-label>
+            Expense Tracking
+          </ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+
+      <ion-menu-toggle>
+          <ion-item routerDirection="" routerLink="/menu/settings">
+            <ion-label>
+                Settings
+            </ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-router-outlet id="content" main></ion-router-outlet>
